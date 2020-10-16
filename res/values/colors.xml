@@ -98,11 +98,11 @@
     <color name="homepage_location_background">#2EC7DC</color>
     <color name="homepage_about_background">#6F86DA</color>
     <color name="homepage_privacy_background">#5E97F6</color>
-    <color name="homepage_weeb_background">@*android:color/accent_device_default_light</color>
+    <color name="homepage_weeb_background">#FF6961</color>
 
     <color name="contextual_card_stroke_color">#1f000000</color>
-    <color name="contextual_card_dismissal_background">#FFFFFFFF</color>
-    <color name="contextual_card_background">#FFFFFFFF</color>
+    <color name="contextual_card_dismissal_background">#FFFFFF</color>
+    <color name="contextual_card_background">#FFFFFF</color>
     <!-- End of dashboard/homepage icon background colors -->
 
     <color name="switchbar_background_color">@*android:color/material_grey_600</color>
