@@ -26,6 +26,13 @@
         android:key="weeb_logo" 
         android:layout="@layout/weeb_about_logo"/>
 
+    <!-- Weeb About -->
+    <Preference
+        android:key="weeb_about_info"
+        android:title="@string/weeb_about_title"
+	    android:summary="@string/weeb_about_summary"
+        android:fragment="com.weeb.settings.fragments.AboutSettings" />
+
     <!-- Weeb version -->
     <Preference
         android:key="weeb_version"
