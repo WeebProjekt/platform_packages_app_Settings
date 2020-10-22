@@ -21,10 +21,17 @@
     android:title="@string/firmware_information"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Weeb banner -->
+    <!-- Weeb About Logo -->
     <PreferenceScreen
-        android:key="weeb_banner" 
-        android:layout="@layout/banner"/>
+        android:key="weeb_logo" 
+        android:layout="@layout/weeb_about_logo"/>
+
+    <!-- Weeb About -->
+    <Preference
+        android:key="weeb_about_info"
+        android:title="@string/weeb_about_title"
+	    android:summary="@string/weeb_about_summary"
+        android:fragment="com.weeb.settings.fragments.AboutSettings" />
 
     <!-- Weeb version -->
     <Preference

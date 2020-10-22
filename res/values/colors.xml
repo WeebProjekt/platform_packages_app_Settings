@@ -82,27 +82,27 @@
     <color name="fallback_tintColor">#89000000</color>
 
     <!-- Dashboard/homepage icon background colors -->
-    <color name="homepage_network_background">#2196F3</color>
-    <color name="homepage_connected_device_background">#72B70F</color>
-    <color name="homepage_app_and_notification_background">#FF7E0F</color>
-    <color name="homepage_battery_background">#258982</color>
-    <color name="homepage_display_background">#FFA727</color>
-    <color name="homepage_sound_background">#01B1AF</color>
-    <color name="homepage_storage_background">#C14CE6</color>
-    <color name="homepage_security_background">#0F9D58</color>
-    <color name="homepage_accounts_background">#F15B8D</color>
-    <color name="homepage_accessibility_background">#5011C1</color>
-    <color name="homepage_system_background">#9E9E9E</color>
+    <color name="homepage_network_background">#42A5F5</color>
+    <color name="homepage_connected_device_background">#66BB6A</color>
+    <color name="homepage_app_and_notification_background">#FFA726</color>
+    <color name="homepage_battery_background">#1DE9B6</color>
+    <color name="homepage_display_background">#FFCA28</color>
+    <color name="homepage_sound_background">#00E676</color>
+    <color name="homepage_storage_background">#7E57C2</color>
+    <color name="homepage_security_background">#9CCC65</color>
+    <color name="homepage_accounts_background">#EA80FC</color>
+    <color name="homepage_accessibility_background">#AB47BC</color>
+    <color name="homepage_system_background">#BDBDBD</color>
     <color name="homepage_support_background">#26459C</color>
     <color name="homepage_generic_icon_background">#1A73E8</color>
-    <color name="homepage_location_background">#2EC7DC</color>
-    <color name="homepage_about_background">#6F86DA</color>
-    <color name="homepage_privacy_background">#5E97F6</color>
-    <color name="homepage_weeb_background">@*android:color/accent_device_default_light</color>
+    <color name="homepage_location_background">#29B6F6</color>
+    <color name="homepage_about_background">#B388FF</color>
+    <color name="homepage_privacy_background">#5C6BC0</color>
+    <color name="homepage_weeb_background">#FF6961</color>
 
     <color name="contextual_card_stroke_color">#1f000000</color>
-    <color name="contextual_card_dismissal_background">#FFFFFFFF</color>
-    <color name="contextual_card_background">#FFFFFFFF</color>
+    <color name="contextual_card_dismissal_background">#FFFFFF</color>
+    <color name="contextual_card_background">#FFFFFF</color>
     <!-- End of dashboard/homepage icon background colors -->
 
     <color name="switchbar_background_color">@*android:color/material_grey_600</color>
