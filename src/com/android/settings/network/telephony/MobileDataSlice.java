@@ -89,7 +89,7 @@ public class MobileDataSlice implements CustomSliceable {
             return null;
         }
 
-        final CharSequence summary = mContext.getText(R.string.mobile_data_settings_summary).toString();
+        final CharSequence summary = getSummary();
         final PendingIntent toggleAction = getBroadcastIntent(mContext);
         final PendingIntent primaryAction = getPrimaryAction();
         final SliceAction primarySliceAction = SliceAction.createDeeplink(primaryAction, icon,
