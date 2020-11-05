@@ -3,5 +3,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <color name="weeb_about_logo">#FFFFFF</color>
+    <color name="weeb_cardview">#141414</color>
 
 </resources>

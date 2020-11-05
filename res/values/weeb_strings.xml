@@ -13,11 +13,11 @@
     <string name="about_device_name">Device `デバイス</string>
 
     <!-- Firmware Information -->
-    <string name="firmware_information">Firmware info `詳細はこちら</string>
+    <string name="firmware_information">Firmware info</string>
     <string name="firmware_information_summary">Information about system firmware</string>
 
     <!-- Hardware Information -->
-    <string name="hardware_information">Hardware info `詳細はこちら</string>
+    <string name="hardware_information">Hardware info</string>
     <string name="hardware_information_summary">Information about hardware</string>
     <string name="platform_revision">Platform</string>
     <string name="total_ram">RAM</string>
@@ -30,6 +30,7 @@
 
     <!-- Weeb version -->
     <string name="weeb_version">WeebProjekt ver `バージョン</string>
+    <string name="weeb_version_summary">Undefined</string>
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
@@ -45,5 +46,22 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- Weeb Device Info -->
+    <string name="weeb_device_owner_name">Owner name</string>
+    <string name="weeb_device_name">Device Name</string>
+    <string name="weeb_device_name_summary">Unknown</string>
+    <string name="weeb_chipset_type">Chipset</string>
+    <string name="weeb_chipset_type_summary">Unknown</string>
+    <string name="weeb_gpu">GPU</string>
+    <string name="weeb_gpu_summary">Unknown</string>
+    <string name="weeb_camera_mp">Camera</string>
+    <string name="weeb_camera_mp_summary">Unknown</string>
+    <string name="weeb_screen_type">Screen</string>
+    <string name="weeb_screen_type_summary">Unknown</string>
+
+    <!-- Weeb About Maintainer Info -->
+    <string name="weeb_maintainer">Maintainer</string>
+    <string name="weeb_maintainer_name">Unknown</string>
 
 </resources>
