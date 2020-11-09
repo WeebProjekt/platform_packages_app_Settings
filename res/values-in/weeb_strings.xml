@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- WeebCafe Settings -->
+    <string name="weeb_settings_dash_title">WeebsX</string>
+    <string name="weeb_settings_summary">Moar onichan features</string>
+
+    <!-- Advanced powermenu -->
+    <string name="global_actions_title">Power menu</string>
+
+    <!-- Device Codename -->
+    <string name="about_device_name">Perangkat `デバイス</string>
+
+    <!-- Firmware Information -->
+    <string name="firmware_information">Firmware info</string>
+    <string name="firmware_information_summary">Informasi tentang perangkat lunak</string>
+
+    <!-- Hardware Information -->
+    <string name="hardware_information">Hardware info</string>
+    <string name="hardware_information_summary">Informasi yang terkait perangkat keras</string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">RAM</string>
+
+    <!-- SELinux status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- Weeb version -->
+    <string name="weeb_version">WeebProjekt ver `バージョン</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+
+     <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="hidden_label">Hidden</string>
+    <string name="long_label">Long</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- Weeb Device Info -->
+    <string name="weeb_device_owner_name">Nama pemilik</string>
+    <string name="weeb_device_name">Nama Perangkat</string>
+    <string name="weeb_chipset_type">Chipset</string>
+    <string name="weeb_gpu">GPU</string>
+    <string name="weeb_camera_mp">Kamera</string>
+    <string name="weeb_screen_type">Layar</string>
+</resources>

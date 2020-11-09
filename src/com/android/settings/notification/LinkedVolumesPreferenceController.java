@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The Android Open Source Project
+ * Copyright (C) 2018 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,26 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.settings.deviceinfo.firmwareversion;
+package com.android.settings.notification;
 
 import android.content.Context;
 
+import com.android.settings.Utils;
 import com.android.settings.core.BasePreferenceController;
-import com.android.settingslib.DeviceInfoUtils;
 
-public class KernelVersionPreferenceController extends BasePreferenceController {
-
-    public KernelVersionPreferenceController(Context context, String preferenceKey) {
-        super(context, preferenceKey);
+public class LinkedVolumesPreferenceController extends BasePreferenceController {
+    public LinkedVolumesPreferenceController(Context context, String key) {
+        super(context, key);
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return AVAILABLE;
-    }
-
-    @Override
-    public CharSequence getSummary() {
-        return DeviceInfoUtils.getFormattedKernelVersion(mContext);
+        return Utils.isVoiceCapable(mContext) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 }
