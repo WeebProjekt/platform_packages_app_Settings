@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <!-- Weeb version -->
+    <string name="weeb_version">WeebProjekt version `バージョン</string>
+    <string name="weeb_version_summary">Undefined</string>
+
+
+    <!-- Weeb About Maintainer Info -->
+    <string name="weeb_maintainer">Maintainer</string>
+    <string name="weeb_maintainer_name">Unknown</string>
+
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- Firmware Information -->
+    <string name="firmware_information">Firmware info</string>
+    <string name="firmware_information_summary">Information about system firmware</string>
+
+    <!-- Hardware Information -->
+    <string name="hardware_information">Hardware info</string>
+    <string name="hardware_information_summary">Information about hardware</string>
+
+    <!-- Weeb Device Info -->
+    <string name="weeb_device_owner_name">Owner name</string>
+    <string name="weeb_device_name">Device Name</string>
+    <string name="weeb_device_name_summary">Unknown</string>
+    <string name="weeb_chipset_type">Chipset</string>
+    <string name="weeb_chipset_type_summary">Unknown</string>
+    <string name="weeb_gpu">GPU</string>
+    <string name="weeb_gpu_summary">Unknown</string>
+    <string name="weeb_camera_mp">Camera</string>
+    <string name="weeb_camera_mp_summary">Unknown</string>
+    <string name="weeb_screen_type">Screen</string>
+    <string name="weeb_screen_type_summary">Unknown</string>
+
+</resources>

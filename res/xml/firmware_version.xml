@@ -18,12 +18,24 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/firmware_version"
+    android:title="@string/firmware_information"
     settings:keywords="@string/keywords_android_version">
+
+    <!-- Weeb About Logo -->
+    <PreferenceScreen
+        android:key="weeb_logo" 
+        android:layout="@layout/weeb_about_logo"
+        android:selectable="false"/>
+
+    <Preference 
+        android:layout="@layout/weeb_cardview_divider" 
+        android:selectable="false"/>   
+
 
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
+        android:layout="@layout/weeb_cardview_top"
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
@@ -33,43 +45,40 @@
     <!-- Security patch -->
     <Preference
         android:key="security_key"
+        android:layout="@layout/weeb_cardview"
         android:title="@string/security_patch"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
-    <!-- Mainline module version -->
+    <!-- Build -->
     <Preference
-        android:key="module_version"
-        android:title="@string/module_version"
+        android:key="os_build_number"
+        android:layout="@layout/weeb_cardview_bottom"
+        android:title="@string/build_number"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
+
+    <Preference 
+        android:layout="@layout/weeb_cardview_divider" 
+        android:selectable="false"/>   
 
     <!-- Baseband -->
     <Preference
         android:key="base_band"
+        android:layout="@layout/weeb_cardview_top"
         android:title="@string/baseband_version"
         android:summary="@string/summary_placeholder"
-        android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
 
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"
+        android:layout="@layout/weeb_cardview_bottom"
         android:title="@string/kernel_version"
         android:summary="@string/summary_placeholder"
-        android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
-
-    <!-- Build -->
-    <Preference
-        android:key="os_build_number"
-        android:title="@string/build_number"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
 
 </PreferenceScreen>

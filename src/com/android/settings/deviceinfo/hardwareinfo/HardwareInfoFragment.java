@@ -19,6 +19,10 @@ package com.android.settings.deviceinfo.hardwareinfo;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.provider.SearchIndexableResource;
+import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
+import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
+import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settingslib.core.lifecycle.Lifecycle;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
@@ -41,6 +45,12 @@ public class HardwareInfoFragment extends DashboardFragment {
     }
 
     @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        use(ImeiInfoPreferenceController.class).setHost(this /* parent */);
+    }
+
+    @Override
     protected int getPreferenceScreenResId() {
         return R.xml.hardware_info;
     }
@@ -58,4 +68,15 @@ public class HardwareInfoFragment extends DashboardFragment {
                     return context.getResources().getBoolean(R.bool.config_show_device_model);
                 }
             };
+    @Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return buildPreferenceControllers(context, this /* fragment */, getSettingsLifecycle());
+    }
+
+    private static List<AbstractPreferenceController> buildPreferenceControllers(
+            Context context, HardwareInfoFragment fragment, Lifecycle lifecycle) {
+        final List<AbstractPreferenceController> controllers = new ArrayList<>();
+        controllers.add(new SimStatusPreferenceController(context, fragment));
+        return controllers;
+    }
 }
