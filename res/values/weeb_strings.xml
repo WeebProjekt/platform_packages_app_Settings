@@ -7,11 +7,11 @@
     <string name="weeb_version">WeebProjekt version `バージョン</string>
     <string name="weeb_version_summary">Undefined</string>
 
-
     <!-- Weeb About Maintainer Info -->
     <string name="weeb_maintainer">Maintainer</string>
     <string name="weeb_maintainer_name">Unknown</string>
 
+    <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
